@@ -6,6 +6,9 @@ h1{
 	background-image:url("sf.jpg");
 	background-size: 100% 100%;
 	font-size: calc(16px + 1vw);
+	height: 75vh;
+    overflow: auto;
+    overflow-x: hidden;
 }
 .ui-content p {
 	background-color: white;
@@ -17,6 +20,7 @@ h1{
 .ui-content img{
 	
 	border:15px ridge #D08927;
+
 }
 .container{
 	height: 400px;
